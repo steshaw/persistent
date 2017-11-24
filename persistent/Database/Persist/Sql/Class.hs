@@ -43,7 +43,7 @@ import qualified Data.Vector as V
 import Numeric.Natural (Natural)
 #endif
 
--- | Class for data types that may be retrived from a 'rawSql'
+-- | Class for data types that may be retrieved from a 'rawSql'
 -- query.
 class RawSql a where
     -- | Number of columns that this data type needs and the list
